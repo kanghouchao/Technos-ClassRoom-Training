@@ -1,0 +1,6 @@
+public class T9 {
+    public static void main(String[] args) {
+        System.out.println("96");
+        System.out.println("87");
+    }
+}
