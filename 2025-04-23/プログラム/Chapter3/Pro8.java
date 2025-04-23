@@ -1,4 +1,4 @@
-package プログラム.Chapter3;
+
 import java.util.Scanner;
 
 public class Pro8 {

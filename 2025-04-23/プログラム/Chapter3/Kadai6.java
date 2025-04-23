@@ -1,4 +1,3 @@
-package プログラム.Chapter3;
 import java.util.Scanner;
 
 // 入力された文字列が「yes」なら「OK」、「no」なら「NG」、それ以外なら「yesでもnoでもありません」を出力するプログラムを作成してください。

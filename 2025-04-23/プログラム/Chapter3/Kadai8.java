@@ -1,4 +1,4 @@
-package プログラム.Chapter3;
+
 import java.util.Scanner;
 // 2回数値を入力し、合計が10になれば「OK」ならなければ「合計が○○で、10ではありません」と出力してください
 public class Kadai8 {

@@ -1,4 +1,4 @@
-package プログラム.Chapter3;
+
 public class Pro11 {
     public static void main(String[] args) {
         System.out.println("おみくじの結果は");

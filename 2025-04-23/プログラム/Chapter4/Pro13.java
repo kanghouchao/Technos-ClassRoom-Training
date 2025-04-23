@@ -1,4 +1,3 @@
-package プログラム.Chapter4;
 import java.util.Scanner;
 
 public class Pro13 {
