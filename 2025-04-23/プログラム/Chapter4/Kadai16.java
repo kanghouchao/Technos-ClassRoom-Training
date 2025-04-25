@@ -6,11 +6,11 @@ public class Kadai16 {
         int correctCount = 0; // 正解数
         int maxCorrectCount = 3; // 最大正解数
 
+        Scanner scanner = new Scanner(System.in);
         while (correctCount < maxCorrectCount) {
             int num1 = (int) (Math.random() * 9) + 1; // 1から9のランダムな数
             int num2 = (int) (Math.random() * 9) + 1; // 1から9のランダムな数
             System.out.print(num1 + " + " + num2 + " = ");
-            Scanner scanner = new Scanner(System.in);
             int answer = scanner.nextInt(); // ユーザーの入力を取得
 
             if (answer == num1 + num2) {
@@ -18,9 +18,10 @@ public class Kadai16 {
                 correctCount++; // 正解数を増やす
             } else {
                 System.out.println("不正解。");
+                correctCount = 0; // 正解数をリセット
             }
-            scanner.close();
         }
+        scanner.close();
         
         System.out.println("3回連続正解しました。終了します。");
     }
