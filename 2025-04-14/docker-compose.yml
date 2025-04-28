@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.4.2
+    container_name: technos
+    environment:
+      MYSQL_ROOT_PASSWORD: /Fq7ZauZU2DgcSZDXImw0w==
+      MYSQL_DATABASE: mydb
+      TZ: Asia/Tokyo
+      MYSQL_CHARSET: utf8mb4
+      MYSQL_COLLATION: utf8mb4_unicode_ci
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./mydb.sql:/docker-entrypoint-initdb.d/init.sql
+volumes:
+  db_data:
+    driver: local

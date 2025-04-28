@@ -1,5 +1,3 @@
-DROP DATABASE IF EXISTS mydb;
-CREATE DATABASE mydb;
 
 USE mydb;
 
@@ -14,7 +12,7 @@ CREATE TABLE user (
 -- 店
 CREATE TABLE shop (
 	s_num INT PRIMARY KEY AUTO_INCREMENT,
-	s_name VARCHAR(50) NOT NULL,
+	s_name VARCHAR(100) NOT NULL,
 	s_owner VARCHAR(20) NOT NULL,
 	s_opening TIME,
 	s_closing TIME
