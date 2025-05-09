@@ -1,7 +1,5 @@
 # 忽略所有的 .class 文件
 *.class
-Part.1 プログラムの基本制御.html
-Part.1 MySQL.html
-ジョブパス3級対策　第2回.pdf
-2025年度 グローバルニュース.html
+*.pdf
+*.html
 .DS_Store
