@@ -7,7 +7,7 @@
  * 不正解の時、正解が入力値よりも大きい場合「もっと大きいよ」小さい場合「もっと小さいよ」を出力
  * 10回失敗した場合「残念！正解は○○」と答えを出力し強制終了
  */
-public class Kazuate {
+public class NumberGuessGame {
     public static void main(String[] args) {
         // 1から100までの乱数を生成
         int answer = (int) (Math.random() * 100) + 1;
